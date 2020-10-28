@@ -22,6 +22,7 @@ button.addEventListener('click', () => {
 });
 
 function roll(num){
-    let returnNumber = Math.floor(Math.random() * num) + 1
-    return returnNumber
+    let returnNumber = Math.floor(Math.random() * num) + 1;
+    let unicode = `&#${returnNumber + 9855};`
+    return `${returnNumber} ${unicode}`
 }
