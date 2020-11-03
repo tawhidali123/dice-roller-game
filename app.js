@@ -18,11 +18,11 @@ button.addEventListener('click', () => {
     } else if(rolls[0] > rolls[1]){
         output.innerHTML = `Player 1 Wins`;
         score1++
-        player1score.innerHTML = `Player 1 = ${score1}`
+        player1score.innerHTML = ` ${score1}`
     } else {
         output.innerHTML = `Player 2 Wins`
         score2++
-        player2score.innerHTML = `Plater 2 = ${score2}`
+        player2score.innerHTML = ` ${score2}`
     }
 
     player1.innerHTML = `${rolls[0]}`

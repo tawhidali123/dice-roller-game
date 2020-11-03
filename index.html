@@ -3,32 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Dice roller</title>
-    <style>
-        #player1, #player2{
-            display: inline-block;
-            width: 200px;
-            height: 140px;
-            border: 5px solid black;
-            padding: 5px;
-            margin: 25px;
-            font-size: 7em;
-            text-align: center;
-        }
-
-        #output{
-            width: 550px;
-            text-align: center;
-            font-size: 2em;
-        }
-
-        button{
-            width: 550px;
-            margin: 10px 20px;
-            padding: 10px;
-        }
-
-    </style>
 </head>
 <body>
     <div id="gameArea">
@@ -41,10 +17,14 @@
 
     <div id="scoreBoard">
         <div>
-            <h2 id="player1score"></h2>
+            <h2>
+                Player 1: <span id="player1score"></span>
+            </h2>
         </div>
         <div>
-            <h2 id="player2score"></h2>
+            <h2>
+                Player 2: <span id="player2score"></span>
+            </h2>
         </div>
     </div>
 
